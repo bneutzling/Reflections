@@ -1,0 +1,4 @@
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- Branches would be helpful when you want to add new, experimental features to your program, but you want to test them
+before you officialy add it to your main code. A separate test branch would allow you to experiment freely without compromising 
+an already functioning version(s) of the program.
