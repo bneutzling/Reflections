@@ -14,3 +14,12 @@ conflict in the files, it will combine the code, then hightlight and label the c
 to. You can choose to keep it as is, or change it. Git will continue to merge the code once you delete the text it added
 to your file and commit the change. Merging is represented in the diagram in that particular manner, because the two commits
 do, in fact, end up becoming one. 
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+- The pros of automatic merging are that Git can figure out where the changes in your code were made, and automatically
+add them without you needing to explore your code and keep track of all the changes you made. This is especially helpful
+when you are merging two branches that have multiple commits to keep track of. If you already put in the work, there is
+no reason to have to go back in and essentially re-do it, saving tons of time! Git also automatically searches for potantial
+conflicts in your code, and highlights and lables those conflicts before completing the merge, helping to prevent issues 
+with your code. The cons are that Git cannot detect all conflicts, just what it has been taught to look for, so if there
+is a conflict in your code that Git does not catch before merging, it may be more difficult to find the issue. 
