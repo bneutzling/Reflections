@@ -6,3 +6,11 @@ an already functioning version(s) of the program.
 How do the diagrams help you visualize the branch structure?
 - It gives you a bigger picture of where branches originiated, and allows you to see which commits effectively 
 communicate with each other.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- Merging two branches together will combine the changes made in any commits belonging to the two branches into one 
+commit. So, any previous additions or deletions to the code would all happen simultaniously. If Git notices any potential
+conflict in the files, it will combine the code, then hightlight and label the conflict according to which branch it belongs 
+to. You can choose to keep it as is, or change it. Git will continue to merge the code once you delete the text it added
+to your file and commit the change. Merging is represented in the diagram in that particular manner, because the two commits
+do, in fact, end up becoming one. 
