@@ -16,3 +16,11 @@ your main files, allowing you to experiment freely.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 - It allows you to make changes to the files in the repository without needing to worry about conflicts from merging.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+- You would have to find another way to share code. You could pass updates back and forth through a portable drive,
+through e-mail, a personal server, etc. You would also have to keep track of every detail of everything you do to
+stay organized and keep all your collaborators up-to-date. This would be very difficult to do on your own, as Git
+and GitHub already have an organized system set up to do this for you. The only thing that would be easier about using 
+a method besides Git and GitHub would be that you don't have to learn how to use Git and GitHub. However, you would need
+to implement an organized system of your own, and communicate that with your collaborators anyways. 
