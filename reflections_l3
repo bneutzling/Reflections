@@ -13,3 +13,6 @@ Describe the differences between forks, clones, and branches. When should you us
 while still offering credit to the original author. Clones copy a repository to Git without creating a new remote, so you
 can work on a repository remotely and add to the original remote. Branches start a new line of commits without updating 
 your main files, allowing you to experiment freely.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+- It allows you to make changes to the files in the repository without needing to worry about conflicts from merging.
