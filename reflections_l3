@@ -8,3 +8,8 @@ repository?
 your repository for you, you may lose track of the changes that were made. Git also automatically updates the head after a 
 pull, so if you're currently working on another commit, it may conflict with your current work.
 
+Describe the differences between forks, clones, and branches. When should you use one istead of another?
+- Forks clone a repository on GitHub to your GitHub profile, making it easy to make your own personal version of a repository
+while still offering credit to the original author. Clones copy a repository to Git without creating a new remote, so you
+can work on a repository remotely and add to the original remote. Branches start a new line of commits without updating 
+your main files, allowing you to experiment freely.
